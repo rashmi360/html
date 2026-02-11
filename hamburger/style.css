@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f4f4f4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu-toggle{
+    display: none;
+}
+
+.navbar{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    z-index: 1;
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.menu-btn{
+    width: 50px;
+    height: 50px;
+    background: #222;
+    align-items: center;
+    font-size: 27px;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    transition: 0.3s;
+    color: white;
+    display: flex;
+}
+
+.menu-btn span{
+    position: absolute;
+    transition: .3s;
+}
+
+.menu-btn close{
+    transform:  rotate(90deg);
+}
+
+.menu{
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 650px;
+    background-color: black;
+    padding: 30px 30px;
+    transform: translateX(-100%);
+    transition: 4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: fixed;
+    z-index: -1;
+}
+
+.menu a{
+    display: flex;
+    color: white;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+
+#menu-toggle:checked ~ .menu{
+    transform: translateX(0);
+}
+#menu-toggle:checked ~.navbar .menu-btn .hamburger{
+    opacity: 0;
+    transform: rotate(-90deg);
+}
+#menu-toggle:checked ~.navbar .menu-btn .close{
+    opacity: 1;
+    transform: rotate(360deg);
+}
+#menu-toggle:checked ~.navbar .menu-btn {
+   background: red;
+}
+::selection{
+  color: white;
+  background-color: rgb(148, 176, 227);
+}
+
+h2::first-letter{
+  font-size: 3rem;
+}
+
+.content{
+    padding: 100px 40px;
+    margin-left: 25%;
+    height: 40%;
+}
+h2{
+    margin-bottom: 16px;
+    font-size: 26px;
+}
+p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: grey;
+}
