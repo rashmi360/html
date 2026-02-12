@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background-color: rgb(221, 252, 252);
+}
+
+.logo h2 {
+    font-size: 22px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.btn-link {
+    margin-left: 25px;
+}
+
+.btn {
+    padding: 8px 18px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #444;
+}
+
+
+.hero-section {
+ background: radial-gradient(50% 90% at 50% 50%, #c4e7eb 0%, #baf7ff 35%, #ffffff 75%);
+  text-align: center;
+    padding: 100px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.subtitle {
+    color: #888;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.title {
+    font-size: 45px;
+    margin: 20px 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    margin-top: 10px;
+}
+
+.half{
+    color: aqua;
+}
+.logo{
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.subtitle {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 10px;
+  font-weight: bold;
+  color: aqua;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+ 
+  /* background: linear-gradient(135deg, #00f5ff, #00bcd4, #008c9e); */
+  
+  border: 2px solid #00e5ff;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-btn {
+    display: flex;
+    gap: 15px; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.btn-color {
+     background:aqua;
+    color: black;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-color:hover {
+     background: linear-gradient(135deg, #aadce2, rgb(178, 229, 231), #00acc1);
+      transform: translateY(-3px);
+}
+
+.blank-btn {
+    background-color: transparent;
+     color: aqua;          
+    padding: 12px 25px;
+    border: 1px solid rgb(30, 249, 249);
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.blank-btn:hover {
+    transform: translateY(-3px);
+}
+
