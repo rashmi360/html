@@ -151,3 +151,52 @@
     transform: translateY(-3px);
 }
 
+
+.why-join-us {
+  max-width: 100vh;
+  margin: 0 auto 40px;
+  padding: 60px 20px;
+  background: white;
+  text-align: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: #00CCCC;
+  border-radius: 2px;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.05);
+  padding: 25px 20px;
+  flex: 1 1 280px;
+  max-width: 300px;
+  text-align: left;
+}
+
+.icon {
+  background: #e0fcfc; 
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+

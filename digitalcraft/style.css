@@ -740,46 +740,73 @@ p{
 }
 
 
-.lp-wrapper {
-  max-width: 1000px;
-  max-height: 800px;
-  margin: 0 auto;
-  padding: 1rem;
-  background-color:rgb(45, 43, 43);
+:root {
+    --primary: #00ffff; /* Aqua */
+    --bg-dark: #000000;
+    --text-light: #ffffff;
+    --text-muted: #cccccc;
 }
 
-
-.lp-title {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  color: white;
-  padding-bottom: 0.4rem;
+/* Section Background */
+.learning-path {
+    background: var(--bg-dark);
+    padding: 80px 20px;
+    color: var(--text-light);
 }
 
-
-.lp-block {
-  border-radius: 8px;
-  padding: 1rem 1.2rem;
-  margin-bottom: 1rem;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05); 
-  transition: box-shadow 0.3s ease;
-}
-.lp-heading {
-  font-size: 1.4rem;
-  font-weight: 600;
-  margin-bottom: 0.4rem;
-  color: aqua;
+/* Section Title */
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
 }
 
-
-.lp-text {
-  margin: 0;
-  font-size: 1rem;
-  color: whitesmoke;
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--text-light);
 }
-.line5{
+
+/* Timeline Container */
+.timeline {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 40px;
+    border-left: 3px solid var(--primary); /* Aqua line */
+}
+
+/* Timeline Item */
+.timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+/* Timeline Dot */
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -52px;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    background: var(--primary);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--primary);
+}
+
+/* Phase Title */
+.timeline-item h3 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+.timeline-item p {
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+/* .line5{
  height: 3px;
     width: 60px;
     background-color: aqua;
@@ -793,7 +820,7 @@ p{
 .timeline {
     position: relative;
     margin-left: 40px; 
-}
+} */
 
 
 
