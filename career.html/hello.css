@@ -90,7 +90,7 @@ nav{
     color: #00f2ff;
 }
 .hero-section {
-  position: relative;
+  /* position: relative; */
   width: 100%;
   background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuBWTpY5UhRIx-rviarBbluxzJ6uqTao1icPF4ybaOfpwbuMkZdD8cCEnodFEZDIUnFqfDGuXeQf1K-ga1OIhljltxvs8WIT_dRp51fdCTEVBZ-QUl7kVBSk7ObWeHDrHh1fW0wDmHD32owNDngSVSI-Sv1pbsAK6JPziPsCUKv0W4LMSbOJ6E2CHWTngJocxg9wcWrmeyi7xTLRHyzDj3Exf4CszbG3S2rRbaIUjmUhYltFJ2n7TgXLObWzgGRe8R44JU7XeKa_sw);
   background-size: cover;
